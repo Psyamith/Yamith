@@ -1,0 +1,177 @@
+ body{
+    padding: 0;
+    margin: 0;
+ }
+ 
+ ol,
+ ul{
+ list-style: none;
+ }
+ a{
+    text-decoration: none;
+ }
+
+ header{
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1 a { color: white;}
+header a i{
+    color: white;
+    font-size: 3em;
+    padding: 0.5em;
+}
+header nav ul{
+    display: flex;
+    gap: 1.1em;
+}
+header nav ul li a{
+    color: white;
+}
+
+element.style{
+    background-color: #ebcb00;
+}
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+.barra{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navegador{
+    list-style-type:none;
+    text-align:center;
+}
+#navegador li{
+display: inline;
+text-align: center;
+margin:0 10px 00;
+}
+
+#navegador li a{
+   padding: 2px 7px 2px 7px;
+   color: black;
+   background-color: white;
+   border: none;
+   text-decoration: none;
+}
+ 
+ .Sección-1{
+    width: 80%;
+    height: 80%;
+    margin-left: auto; 
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+ .acerca-de{
+    gap: 10px;
+    padding: 20px;
+ }
+ .acerca-de h2, p{
+     text-align: center;
+     padding: 0px;
+ }
+ .Acerca-imagen{
+    display: flex; 
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+
+.section-2 img{
+    width: 100%;
+}
+ .footer{
+    /* clear: both; */
+    background-color: #292824;
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+     .footer ul li a {
+        color:white;
+        align-items: center;
+        padding: 10px;
+    }
+
+     .Acerca-imagen{
+        display: flex; 
+        justify-content: right;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+
+  /*MENU*/
+  #check{
+    display: none;
+  }
+
+  .checkbtn{
+    font-size: 25px;
+    color: rgb(247, 245, 245);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  /*MEDIA QUERIES*7
+  /*Estilos para pantallas mas pequeñas (hasta 768px)*/
+  @media (max-width: 768px){
+  }
+  /*Aqui puedes escribir los estiulos que se aplicarán en pantallas más pequeñas*/
+  header{
+    background-color: rgb(42, 20, 241);
+  }
+  .acerca-de{
+       text-align: center;
+  }
+  .acerca-imagen{
+    margin-bottom: 40px;
+  }
+
+H2.fuente-acento{
+    text-align: center;
+}
+.checkbtn{
+    display: block;
+}
+ #encabezado ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #2c3e50;
+    left: 100%;
+    
+    
+    top: 80px;
+    text-align: center;
+    transition: all 0.5s;
+ }
+ #check:checked ~ ul{
+    left: 0%;
+    display: block;
+ }
+
+ #encabezado nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+ }
+ #encabezado nav ul li a{
+    font-size: 20px;
+ }
+ #check:checked ~.checkbtn{
+    color: #f3f4f5;
+ }
+ 
+ 
